@@ -1,5 +1,5 @@
 {
-	"version": 4,
+    "version": 4,
     "versionInfo": {
         "id": "${target}",
         "time": "2013-09-19T00:00:00-00:00",
@@ -195,49 +195,49 @@
         "mainClass": "net.minecraft.launchwrapper.Launch"
     },
     "install": 
-	{
-		"headless": false,
+    {
+        "headless": false,
         "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version ${minecraft_version}",
-		"title": "McBadgerCraft Admin Pack Installer",
-		"forgeVersion": "${minecraft_version}-9.11.1.953",
-		"minecraftVersion": "1.6.4",
+        "title": "McBadgerCraft Admin Pack Installer",
+        "forgeVersion": "${minecraft_version}-9.11.1.953",
+        "minecraftVersion": "1.6.4",
         "target": "McBadgerPack-${minecraft_version}",
         "logo": "/big_logo.png",
         "profileName": "McBadgerPack-${minecraft_version}"
     },
-	"resources":
-	{
-		"active": "",
-		"packs": 
-		[
-		]
-	},
-	"mods": 
-	[
-		{
-			"name": "minecraftforge",
-			"version": "${forge_version}",
-			"filetype": "JAR",
-			"installMethod": "LIBRARY",
-			"artifactId": "net.minecraftforge:minecraftforge:${forge_version}",
-			"url": "http://files.minecraftforge.net/minecraftforge/minecraftforge-universal-${forge_version}.jar"
-		},
-		{
-			"name": "bUpload",
-			"version": "1.2.0",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "uk.thecodingbadgers:bUpload:1.2.0",
-			"url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-1.2.0.jar"
-		},
-		{
-			"name": "InventoryTweaks",
-			"version": "MC1.6.3-1.57-b79",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "invtweaks:inventorytweaks:MC1.6.3-1.57-dev-b79",
-			"url": "http://build.technicpack.net/job/Inventory-Tweaks/83/artifact/build/out/InventoryTweaks-MC1.6.4-1.57-dev-b83.jar"
-		},
+    "resources":
+    {
+        "active": "",
+        "packs": 
+        [
+        ]
+    },
+    "mods": 
+    [
+        {
+            "name": "minecraftforge",
+            "version": "${forge_version}",
+            "filetype": "JAR",
+            "installMethod": "LIBRARY",
+            "artifactId": "net.minecraftforge:minecraftforge:${forge_version}",
+            "url": "http://files.minecraftforge.net/minecraftforge/minecraftforge-universal-${forge_version}.jar"
+        },
+        {
+            "name": "bUpload",
+            "version": "1.2.0",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "uk.thecodingbadgers:bUpload:1.2.0",
+            "url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-1.2.0.jar"
+        },
+        {
+            "name": "InventoryTweaks",
+            "version": "MC1.6.3-1.57-b79",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "invtweaks:inventorytweaks:MC1.6.3-1.57-dev-b79",
+            "url": "http://build.technicpack.net/job/Inventory-Tweaks/83/artifact/build/out/InventoryTweaks-MC1.6.4-1.57-dev-b83.jar"
+        },
         {
             "name": "mod_worldeditcui",
             "version": "${minecraft_version}_00_lite_mc${minecraft_version}",
@@ -278,5 +278,5 @@
             "artifactId": "net.optifine:optifine:1.6.4_HD_U_C4",
             "url": "http://optifine.net/download.php?f=OptiFine_1.6.4_HD_U_C4.jar"     
         }
-	]
+    ]
 }

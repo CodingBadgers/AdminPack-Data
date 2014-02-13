@@ -11,9 +11,9 @@
                 "name": "net.minecraftforge:forge:${forge_version}",
                 "url": "http://files.minecraftforge.net/maven/"
             },
-			{
-			  "name": "net.optifine:optifine:1.7.2_HD_U_C2"
-			},
+            {
+              "name": "net.optifine:optifine:1.7.2_HD_U_C2"
+            },
             {
                 "name": "net.minecraft:launchwrapper:1.9",
                 "serverreq": true
@@ -37,16 +37,16 @@
                 "url": "http://repo1.maven.org/maven2/",
                 "serverreq": true
             },
-			{
-				"name": "commons-codec:commons-codec:1.9",
-				"url": "http://repo1.maven.org/maven2/",
-				"serverreq": true
-			},
-			{
-				"name": "commons-logging:commons-logging:1.1.1",
-				"url": "http://repo1.maven.org/maven2/",
-				"serverreq": true
-			},
+            {
+                "name": "commons-codec:commons-codec:1.9",
+                "url": "http://repo1.maven.org/maven2/",
+                "serverreq": true
+            },
+            {
+                "name": "commons-logging:commons-logging:1.1.1",
+                "url": "http://repo1.maven.org/maven2/",
+                "serverreq": true
+            },
             {
                 "name": "org.scala-lang:scala-library:2.10.2",
                 "url": "http://files.minecraftforge.net/maven/",
@@ -69,10 +69,10 @@
                 "serverreq": true,
                 "clientreq": true
             },
-			{
-				"name": "com.mumfrey:liteloader:1.7.2",
-				"url": "http://dl.liteloader.com/versions/"
-			},
+            {
+                "name": "com.mumfrey:liteloader:1.7.2",
+                "url": "http://dl.liteloader.com/versions/"
+            },
             {
                 "name": "java3d:vecmath:1.3.1"
             },
@@ -254,84 +254,84 @@
         "logo": "/big_logo.png",
         "profileName": "McBadgerPack-${minecraft_version}"
     },
-	"resourcespack":
-	{
-		"active": ""
-	},
-	"resources": 
-	[
-		{
-			"name": "forge",
-			"version": "${forge_version}",
-			"filetype": "JAR",
-			"installMethod": "LIBRARY",
-			"artifactId": "net.minecraftforge:forge:${forge_version}",
-			"url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${forge_version}/forge-${forge_version}-universal.jar"
-		},
-		{
-			"name": "bUpload",
-			"version": "1.4.0-SNAPSHOT",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "uk.thecodingbadgers:bUpload:1.4.0-SNAPSHOT",
-			"url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-${minecraft_version}-1.4.0-SNAPSHOT.jar"
-		},
-		{
-			"name": "VoxelMap",
-			"version": "${minecraft_version}",
-			"filetype": "ZIP",
-			"installMethod": "MODS",
-			"artifactId": "com.voxelbox:voxelmap:${minecraft_version}",
-			"url": "http://mcbadgercraft.com/adminpack/mods/voxelmap-1.7.2-1.0.jar"
-		},
-		{
-			"name": "InventoryTweaks",
-			"version": "1.57-dev-100",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "invtweaks:inventorytweaks:1.57-dev-102",
-			"url": "http://build.technicpack.net/job/Inventory-Tweaks/102/artifact/build/libs/InventoryTweaks-1.57-dev-102.jar"
-		},
-		{
-			"name": "mod_worldeditcui",
-			"version": "${minecraft_version}_00_lite_mc${minecraft_version}",
-			"filetype": "LITEMOD",
-			"installMethod": "MODS",
-			"artifactId": "wecui:worldeditcui:${minecraft_version}_00_lite_mc${minecraft_version}",
-			"url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_01_lite_mc1.7.2.litemod"
-		},
-		{
-			"name": "ShadersModCore",
-			"version": "v2.3.2-beta-mc1.7.2-f1019",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "shadersmodcore.client.Shaders:${minecraft_version}",
-			"url": "http://mcbadgercraft.com/adminpack/mods/ShadersModCore-v2.3.7-mc1.7.2-f1024.jar"
-		},
-		{
-			"name": "badgerstyle",
-			"version": "${minecraft_version}",
-			"filetype": "ZIP",
-			"installMethod": "RESOURCE",
-			"artifactId": "com.mcbadgercraft:badgerstyle:${minecraft_version}",
-			"url": "http://mcbadgercraft.com/downloads/SmoothBadger.zip"
-		},
-		{
-			"name": "lagless",
-			"version": "${minecraft_version}",
-			"filetype": "ZIP",
-			"installMethod": "SHADER",
-			"artifactId": "paolo:lagless:${minecraft_version}",
-			"url": "http://mcbadgercraft.com/adminpack/resources/shaders/%c2%a76Paolo%27s%20%c2%a7aLagLess%20%c2%a74Shaders%20%c2%a7cv03%20%c2%a73RC6.zip"
-		},
-		{
-			"name": "seus",
-			"version": "10.1_preview1",
-			"filetype": "ZIP",
-			"installMethod": "SHADER",
-			"artifactId": "seus:seus:10.1_preview1}",
-			"url": "http://mcbadgercraft.com/adminpack/resources/shaders/SEUS_v10.1_preview1.zip"
-		},
+    "resourcespack":
+    {
+        "active": ""
+    },
+    "resources": 
+    [
+        {
+            "name": "forge",
+            "version": "${forge_version}",
+            "filetype": "JAR",
+            "installMethod": "LIBRARY",
+            "artifactId": "net.minecraftforge:forge:${forge_version}",
+            "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${forge_version}/forge-${forge_version}-universal.jar"
+        },
+        {
+            "name": "bUpload",
+            "version": "1.4.0-SNAPSHOT",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "uk.thecodingbadgers:bUpload:1.4.0-SNAPSHOT",
+            "url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-${minecraft_version}-1.4.0-SNAPSHOT.jar"
+        },
+        {
+            "name": "VoxelMap",
+            "version": "${minecraft_version}",
+            "filetype": "ZIP",
+            "installMethod": "MODS",
+            "artifactId": "com.voxelbox:voxelmap:${minecraft_version}",
+            "url": "http://mcbadgercraft.com/adminpack/mods/voxelmap-1.7.2-1.0.jar"
+        },
+        {
+            "name": "InventoryTweaks",
+            "version": "1.57-dev-100",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "invtweaks:inventorytweaks:1.57-dev-102",
+            "url": "http://build.technicpack.net/job/Inventory-Tweaks/102/artifact/build/libs/InventoryTweaks-1.57-dev-102.jar"
+        },
+        {
+            "name": "mod_worldeditcui",
+            "version": "${minecraft_version}_00_lite_mc${minecraft_version}",
+            "filetype": "LITEMOD",
+            "installMethod": "MODS",
+            "artifactId": "wecui:worldeditcui:${minecraft_version}_00_lite_mc${minecraft_version}",
+            "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_01_lite_mc1.7.2.litemod"
+        },
+        {
+            "name": "ShadersModCore",
+            "version": "v2.3.2-beta-mc1.7.2-f1019",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "shadersmodcore.client.Shaders:${minecraft_version}",
+            "url": "http://mcbadgercraft.com/adminpack/mods/ShadersModCore-v2.3.7-mc1.7.2-f1024.jar"
+        },
+        {
+            "name": "badgerstyle",
+            "version": "${minecraft_version}",
+            "filetype": "ZIP",
+            "installMethod": "RESOURCE",
+            "artifactId": "com.mcbadgercraft:badgerstyle:${minecraft_version}",
+            "url": "http://mcbadgercraft.com/downloads/SmoothBadger.zip"
+        },
+        {
+            "name": "lagless",
+            "version": "${minecraft_version}",
+            "filetype": "ZIP",
+            "installMethod": "SHADER",
+            "artifactId": "paolo:lagless:${minecraft_version}",
+            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/%c2%a76Paolo%27s%20%c2%a7aLagLess%20%c2%a74Shaders%20%c2%a7cv03%20%c2%a73RC6.zip"
+        },
+        {
+            "name": "seus",
+            "version": "10.1_preview1",
+            "filetype": "ZIP",
+            "installMethod": "SHADER",
+            "artifactId": "seus:seus:10.1_preview1}",
+            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/SEUS_v10.1_preview1.zip"
+        },
         {
             "name": "Optifine",
             "version": "1.7.2_HD_U_C2",
@@ -340,5 +340,5 @@
             "artifactId": "net.optifine:optifine:1.7.2_HD_U_C2",
             "url": "http://optifine.net/download.php?f=OptiFine_1.7.2_HD_U_C2.jar"     
         }
-	]
+    ]
 }

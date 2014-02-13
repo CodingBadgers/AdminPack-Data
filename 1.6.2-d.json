@@ -1,187 +1,187 @@
 {
-	"version": 4,
+    "version": 4,
     "versionInfo": 
-	{
+    {
         "minecraftArguments": "--username ${auth_player_name} --session ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker --cascadedTweaks cpw.mods.fml.common.launcher.FMLTweaker",
-		"libraries": [
+        "libraries": [
             {
-				"name": "net.minecraftforge:minecraftforge:${forge_version}",
-				"url": "http://files.minecraftforge.net/maven/"
-			},
-			{
-				"name": "org.ow2.asm:asm-all:4.1"
-			},
-			{
-				"name": "com.mumfrey:liteloader:${minecraft_version}",
-				"url": "http://dl.liteloader.com/versions/"
-			},
-			{
-				"name": "net.minecraft:launchwrapper:1.3"
-			},
-			{
-				"name": "lzma:lzma:0.0.1"
-			},
-			{
-				"name": "net.optifine:optifine:1.6.2_HD_U_B4",
-				"serverreq": false
-			},
-			{
-				"name": "net.sf.jopt-simple:jopt-simple:4.5"
-			},
-			{
-				"name": "com.paulscode:codecjorbis:20101023"
-			},
-			{
-				"name": "com.paulscode:codecwav:20101023"
-			},
-			{
-				"name": "com.paulscode:libraryjavasound:20101123"
-			},
-			{
-				"name": "com.paulscode:librarylwjglopenal:20100824"
-			},
-			{
-				"name": "com.paulscode:soundsystem:20120107"
-			},
-			{
-				"name": "argo:argo:2.25_fixed"
-			},
-			{
-				"name": "org.bouncycastle:bcprov-jdk15on:1.47"
-			},
-			{
-				"name": "com.google.guava:guava:14.0"
-			},
-			{
-				"name": "org.apache.commons:commons-lang3:3.1"
-			},
-			{
-				"name": "commons-io:commons-io:2.4"
-			},
-			{
-				"name": "net.java.jinput:jinput:2.0.5"
-			},
-			{
-				"name": "net.java.jutils:jutils:1.0.0"
-			},
-			{
-				"name": "com.google.code.gson:gson:2.2.2"
-			},
-			{
-				"name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
-				"rules": [
-					{
-						"action": "allow"
-					},
-					{
-						"action": "disallow",
-						"os": {
-							"name": "osx",
-							"version": "^10\\.5\\.\\d$"
-						}
-					}
-				]
-			},
-			{
-				"name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
-				"rules": [
-					{
-						"action": "allow"
-					},
-					{
-						"action": "disallow",
-						"os": {
-							"name": "osx",
-							"version": "^10\\.5\\.\\d$"
-						}
-					}
-				]
-			},
-			{
-				"name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
-				"rules": [
-					{
-						"action": "allow"
-					},
-					{
-						"action": "disallow",
-						"os": {
-							"name": "osx",
-							"version": "^10\\.5\\.\\d$"
-						}
-					}
-				],
-				"natives": {
-					"linux": "natives-linux",
-					"windows": "natives-windows",
-					"osx": "natives-osx"
-				},
-				"extract": {
-					"exclude": [
-						"META-INF/"
-					]
-				}
-			},
-			{
-				"name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3",
-				"rules": [
-					{
-						"action": "allow",
-						"os": {
-							"name": "osx",
-							"version": "^10\\.5\\.\\d$"
-						}
-					}
-				]
-			},
-			{
-				"name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3",
-				"rules": [
-					{
-						"action": "allow",
-						"os": {
-							"name": "osx",
-							"version": "^10\\.5\\.\\d$"
-						}
-					}
-				]
-			},
-			{
-				"name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3",
-				"rules": [
-					{
-						"action": "allow",
-						"os": {
-							"name": "osx",
-							"version": "^10\\.5\\.\\d$"
-						}
-					}
-				],
-				"natives": {
-					"linux": "natives-linux",
-					"windows": "natives-windows",
-					"osx": "natives-osx"
-				},
-				"extract": {
-					"exclude": [
-						"META-INF/"
-					]
-				}
-			},
-			{
-				"name": "net.java.jinput:jinput-platform:2.0.5",
-				"natives": {
-					"linux": "natives-linux",
-					"windows": "natives-windows",
-					"osx": "natives-osx"
-				},
-				"extract": {
-					"exclude": [
-						"META-INF/"
-					]
-				}
-			}
-		],
+                "name": "net.minecraftforge:minecraftforge:${forge_version}",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:4.1"
+            },
+            {
+                "name": "com.mumfrey:liteloader:${minecraft_version}",
+                "url": "http://dl.liteloader.com/versions/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.3"
+            },
+            {
+                "name": "lzma:lzma:0.0.1"
+            },
+            {
+                "name": "net.optifine:optifine:1.6.2_HD_U_B4",
+                "serverreq": false
+            },
+            {
+                "name": "net.sf.jopt-simple:jopt-simple:4.5"
+            },
+            {
+                "name": "com.paulscode:codecjorbis:20101023"
+            },
+            {
+                "name": "com.paulscode:codecwav:20101023"
+            },
+            {
+                "name": "com.paulscode:libraryjavasound:20101123"
+            },
+            {
+                "name": "com.paulscode:librarylwjglopenal:20100824"
+            },
+            {
+                "name": "com.paulscode:soundsystem:20120107"
+            },
+            {
+                "name": "argo:argo:2.25_fixed"
+            },
+            {
+                "name": "org.bouncycastle:bcprov-jdk15on:1.47"
+            },
+            {
+                "name": "com.google.guava:guava:14.0"
+            },
+            {
+                "name": "org.apache.commons:commons-lang3:3.1"
+            },
+            {
+                "name": "commons-io:commons-io:2.4"
+            },
+            {
+                "name": "net.java.jinput:jinput:2.0.5"
+            },
+            {
+                "name": "net.java.jutils:jutils:1.0.0"
+            },
+            {
+                "name": "com.google.code.gson:gson:2.2.2"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20130708-debug3",
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "osx",
+                            "version": "^10\\.5\\.\\d$"
+                        }
+                    }
+                ],
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            }
+        ],
         "mainClass": "net.minecraft.launchwrapper.Launch",
         "minimumLauncherVersion": 4,
         "releaseTime": "1960-01-01T00:00:00-0700",
@@ -191,138 +191,138 @@
         "processArguments": "username_session_version"
     },
     "install": 
-	{
+    {
         "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version ${minecraft_version}",
-		"title": "McBadgerCraft Admin Pack Installer",
-		"forgeVersion": "1.6.2-9.10.0.804",
-		"minecraftVersion": "1.6.2",
+        "title": "McBadgerCraft Admin Pack Installer",
+        "forgeVersion": "1.6.2-9.10.0.804",
+        "minecraftVersion": "1.6.2",
         "logo": "/big_logo.png",
         "target": "McBadgerPack-${minecraft_version}",
         "profileName": "McBadgerPack-${minecraft_version}"
     },
-	"resourcepack":
-	{
-		"active": "",
-		"packs": 
-		[
-			{
-				"name": "BadgerStyle",
-				"url": "http://mcbadgercraft.com/downloads/badgerstyle/BadgerStyle-1-6-2.zip"
-			},
-			{
-				"name": "Runescape",
-				"url": "http://mcbadgercraft.com/adminpack/resources/packs/RuneScape-1.6.2.zip"
-			}
-		]
-	},
-	"mods": 
-	[
-		{
-			"name": "Minecraft-Forge",
-			"version": "${forge_version}",
-			"filetype": "JAR",
-			"installMethod": "LIBRARY",
-			"artifactId": "net.minecraftforge:minecraftforge:${forge_version}",
-			"url": "http://files.minecraftforge.net/minecraftforge/minecraftforge-universal-${forge_version}.jar"
-		},
-		{
-			"name": "bUpload",
-			"version": "1.1.2",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "uk.thecodingbadgers:bUpload:1.1.2",
-			"url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-1.1.2.jar"
-		},
-		{
-			"name": "InventoryTweaks",
-			"version": "MC${minecraft_version}-1.55b-b61",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "invtweaks:inventorytweaks:MC${minecraft_version}-1.55b-b61",
-			"url": "http://build.technicpack.net/job/Inventory-Tweaks/61/artifact/build/out/InventoryTweaks-MC1.6.2-1.55b-b61.jar"
-		},
-		{
-			"name": "mod_macros",
-			"version": "0.9.10_beta1_mc${minecraft_version}",
-			"filetype": "LITEMOD",
-			"installMethod": "MODS",
-			"artifactId": "net.eq2online:macros:0.9.10_beta1_mc${minecraft_version}",
-			"url": "http://eq2.co.uk/minecraft/mods/prerelease/mod_macros_0.9.10_beta1_mc1.6.2.litemod"
-		},
-		{
-			"name": "mod_worldeditcui",
-			"version": "${minecraft_version}_00_lite_mc${minecraft_version}",
-			"filetype": "LITEMOD",
-			"installMethod": "MODS",
-			"artifactId": "wecui:worldeditcui:${minecraft_version}_00_lite_mc${minecraft_version}",
-			"url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.6.2_00_lite_mc1.6.2.litemod"
-		},
-		{
-			"name": "ZansMinimap",
-			"version": "${minecraft_version}",
-			"filetype": "ZIP",
-			"installMethod": "MODS",
-			"artifactId": "com.voxelbox:voxelmap:${minecraft_version}",
-			"url": "http://mcbadgercraft.com/adminpack/mods/ZansMinimap1.6.2.zip"
-		},
-		{
-			"name": "TabbyChat",
-			"version": "1.9.01",
-			"filetype": "JAR",
-			"installMethod": "MODS",
-			"artifactId": "acs:tabbychat:1.9.01",
-			"url": "http://tabbychat.port0.org/tabbychat/download.php?mc=1.6.2&tc=latest",
-			"config": 
-			[
-				{
-					"filename": "general.cfg",
-					"directory": "config/tabbychat",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/general.cfg"
-				},
-				{
-					"filename": "advanced.cfg",
-					"directory": "config/tabbychat",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/advanced.cfg"
-				},
-				{
-					"filename": "settings.cfg",
-					"directory": "config/tabbychat/server.mcbadgercraft.com",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/server/settings.cfg"
-				},
-				{
-					"filename": "filters.cfg",
-					"directory": "config/tabbychat/server.mcbadgercraft.com",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/server/filters.cfg"
-				},
-				{
-					"filename": "settings.cfg",
-					"directory": "config/tabbychat/games.mcbadgercraft.com",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/games/settings.cfg"
-				},
-				{
-					"filename": "filters.cfg",
-					"directory": "config/tabbychat/games.mcbadgercraft.com",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/games/filters.cfg"
-				},
-				{
-					"filename": "settings.cfg",
-					"directory": "config/tabbychat/dev.mcbadgercraft.com",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/dev/settings.cfg"
-				},
-				{
-					"filename": "filters.cfg",
-					"directory": "config/tabbychat/dev.mcbadgercraft.com",
-					"url": "http://mcbadgercraft.com/adminpack/config/tabbychat/dev/filters.cfg"
-				}
-			]
-		},
-		{
-			"name": "Optifine",
-			"version": "1.6.2_HD_U_B4",
-			"filetype": "JAR",
-			"installMethod": "LIBRARY",
-			"artifactId": "net.optifine:optifine:1.6.2_HD_U_B4",
-			"url": "http://mcbadgercraft.com/adminpack/mods/OptiFine_1.6.2_HD_U_B4.zip"		
-		}
-	]
+    "resourcepack":
+    {
+        "active": "",
+        "packs": 
+        [
+            {
+                "name": "BadgerStyle",
+                "url": "http://mcbadgercraft.com/downloads/badgerstyle/BadgerStyle-1-6-2.zip"
+            },
+            {
+                "name": "Runescape",
+                "url": "http://mcbadgercraft.com/adminpack/resources/packs/RuneScape-1.6.2.zip"
+            }
+        ]
+    },
+    "mods": 
+    [
+        {
+            "name": "Minecraft-Forge",
+            "version": "${forge_version}",
+            "filetype": "JAR",
+            "installMethod": "LIBRARY",
+            "artifactId": "net.minecraftforge:minecraftforge:${forge_version}",
+            "url": "http://files.minecraftforge.net/minecraftforge/minecraftforge-universal-${forge_version}.jar"
+        },
+        {
+            "name": "bUpload",
+            "version": "1.1.2",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "uk.thecodingbadgers:bUpload:1.1.2",
+            "url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-1.1.2.jar"
+        },
+        {
+            "name": "InventoryTweaks",
+            "version": "MC${minecraft_version}-1.55b-b61",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "invtweaks:inventorytweaks:MC${minecraft_version}-1.55b-b61",
+            "url": "http://build.technicpack.net/job/Inventory-Tweaks/61/artifact/build/out/InventoryTweaks-MC1.6.2-1.55b-b61.jar"
+        },
+        {
+            "name": "mod_macros",
+            "version": "0.9.10_beta1_mc${minecraft_version}",
+            "filetype": "LITEMOD",
+            "installMethod": "MODS",
+            "artifactId": "net.eq2online:macros:0.9.10_beta1_mc${minecraft_version}",
+            "url": "http://eq2.co.uk/minecraft/mods/prerelease/mod_macros_0.9.10_beta1_mc1.6.2.litemod"
+        },
+        {
+            "name": "mod_worldeditcui",
+            "version": "${minecraft_version}_00_lite_mc${minecraft_version}",
+            "filetype": "LITEMOD",
+            "installMethod": "MODS",
+            "artifactId": "wecui:worldeditcui:${minecraft_version}_00_lite_mc${minecraft_version}",
+            "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.6.2_00_lite_mc1.6.2.litemod"
+        },
+        {
+            "name": "ZansMinimap",
+            "version": "${minecraft_version}",
+            "filetype": "ZIP",
+            "installMethod": "MODS",
+            "artifactId": "com.voxelbox:voxelmap:${minecraft_version}",
+            "url": "http://mcbadgercraft.com/adminpack/mods/ZansMinimap1.6.2.zip"
+        },
+        {
+            "name": "TabbyChat",
+            "version": "1.9.01",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "acs:tabbychat:1.9.01",
+            "url": "http://tabbychat.port0.org/tabbychat/download.php?mc=1.6.2&tc=latest",
+            "config": 
+            [
+                {
+                    "filename": "general.cfg",
+                    "directory": "config/tabbychat",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/general.cfg"
+                },
+                {
+                    "filename": "advanced.cfg",
+                    "directory": "config/tabbychat",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/advanced.cfg"
+                },
+                {
+                    "filename": "settings.cfg",
+                    "directory": "config/tabbychat/server.mcbadgercraft.com",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/server/settings.cfg"
+                },
+                {
+                    "filename": "filters.cfg",
+                    "directory": "config/tabbychat/server.mcbadgercraft.com",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/server/filters.cfg"
+                },
+                {
+                    "filename": "settings.cfg",
+                    "directory": "config/tabbychat/games.mcbadgercraft.com",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/games/settings.cfg"
+                },
+                {
+                    "filename": "filters.cfg",
+                    "directory": "config/tabbychat/games.mcbadgercraft.com",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/games/filters.cfg"
+                },
+                {
+                    "filename": "settings.cfg",
+                    "directory": "config/tabbychat/dev.mcbadgercraft.com",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/dev/settings.cfg"
+                },
+                {
+                    "filename": "filters.cfg",
+                    "directory": "config/tabbychat/dev.mcbadgercraft.com",
+                    "url": "http://mcbadgercraft.com/adminpack/config/tabbychat/dev/filters.cfg"
+                }
+            ]
+        },
+        {
+            "name": "Optifine",
+            "version": "1.6.2_HD_U_B4",
+            "filetype": "JAR",
+            "installMethod": "LIBRARY",
+            "artifactId": "net.optifine:optifine:1.6.2_HD_U_B4",
+            "url": "http://mcbadgercraft.com/adminpack/mods/OptiFine_1.6.2_HD_U_B4.zip"        
+        }
+    ]
 }
