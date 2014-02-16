@@ -347,6 +347,14 @@
             "installMethod": "MODS",
             "artifactId": "DamageIndicatorsMod.DIMod:3.07",
             "url": "http://mcbadgercraft.com/adminpack/mods/DamageIndicatorsMod-3.0.7.jar"     
+        },
+        {
+            "name": "mod_macros",
+            "version": "0.10.02_beta1_for_${minecraft_version}",
+            "filetype": "LITEMOD",
+            "installMethod": "MODS",
+            "artifactId": "net.eq2online:macros:0.10.02_beta1_for_${minecraft_version}",
+            "url": "http://eq2.co.uk/minecraft/mods/mod_macros_0.10.02_beta1_for_1.7.2.litemod"     
         }
     ]
 }
