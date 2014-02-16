@@ -302,11 +302,11 @@
         },
         {
             "name": "ShadersModCore",
-            "version": "v2.3.2-beta-mc1.7.2-f1019",
+            "version": "v2.3.9-mc1.7.2-f1024",
             "filetype": "JAR",
             "installMethod": "MODS",
             "artifactId": "shadersmodcore.client.Shaders:${minecraft_version}",
-            "url": "http://mcbadgercraft.com/adminpack/mods/ShadersModCore-v2.3.7-mc1.7.2-f1024.jar"
+            "url": "http://mcbadgercraft.com/adminpack/mods/ShadersModCore-v2.3.9-mc1.7.2-f1024.jar"
         },
         {
             "name": "badgerstyle",
@@ -322,7 +322,7 @@
             "filetype": "ZIP",
             "installMethod": "SHADER",
             "artifactId": "paolo:lagless:${minecraft_version}",
-            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/%c2%a76Paolo%27s%20%c2%a7aLagLess%20%c2%a74Shaders%20%c2%a7cv03%20%c2%a73RC6.zip"
+            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/LagLess_RC7.zip"
         },
         {
             "name": "seus",
@@ -355,6 +355,14 @@
             "installMethod": "MODS",
             "artifactId": "net.eq2online:macros:0.10.02_beta1_for_${minecraft_version}",
             "url": "http://eq2.co.uk/minecraft/mods/mod_macros_0.10.02_beta1_for_1.7.2.litemod"     
+        },
+		{
+            "name": "DynamicLights",
+            "version": "{minecraft_version}",
+            "filetype": "ZIP",
+            "installMethod": "MODS",
+            "artifactId": "atomicstryker.dynamiclights.client.DynamicLights:{minecraft_version}",
+            "url": "mcbadgercraft.com/adminpack/mods/DynamicLights-{minecraft_version}.jar"     
         }
     ]
 }
