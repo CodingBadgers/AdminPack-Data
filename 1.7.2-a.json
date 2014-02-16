@@ -358,11 +358,11 @@
         },
 		{
             "name": "DynamicLights",
-            "version": "{minecraft_version}",
+            "version": "1.7.2",
             "filetype": "ZIP",
             "installMethod": "MODS",
-            "artifactId": "atomicstryker.dynamiclights.client.DynamicLights:{minecraft_version}",
-            "url": "mcbadgercraft.com/adminpack/mods/DynamicLights-{minecraft_version}.jar"     
+            "artifactId": "atomicstryker.dynamiclights.client.DynamicLights:1.7.2",
+            "url": "http://mcbadgercraft.com/adminpack/mods/DynamicLights-1.7.2.jar"     
         }
     ]
 }
