@@ -294,11 +294,11 @@
         },
         {
             "name": "mod_worldeditcui",
-            "version": "${minecraft_version}_00_lite_mc${minecraft_version}",
+            "version": "${minecraft_version}_02_lite_mc${minecraft_version}",
             "filetype": "LITEMOD",
             "installMethod": "MODS",
-            "artifactId": "wecui:worldeditcui:${minecraft_version}_00_lite_mc${minecraft_version}",
-            "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_01_lite_mc1.7.2.litemod"
+            "artifactId": "wecui:worldeditcui:${minecraft_version}_02_lite_mc${minecraft_version}",
+            "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_02_lite_mc1.7.2.litemod"
         },
         {
             "name": "ShadersModCore",
