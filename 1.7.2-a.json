@@ -12,7 +12,7 @@
                 "url": "http://files.minecraftforge.net/maven/"
             },
             {
-              "name": "net.optifine:optifine:1.7.2_HD_U_C2"
+              "name": "net.optifine:optifine:1.7.2_HD_U_D1"
             },
             {
                 "name": "net.minecraft:launchwrapper:1.9",
@@ -334,11 +334,11 @@
         },
         {
             "name": "Optifine",
-            "version": "1.7.2_HD_U_C2",
+            "version": "1.7.2_HD_U_D1",
             "filetype": "JAR",
             "installMethod": "LIBRARY",
-            "artifactId": "net.optifine:optifine:1.7.2_HD_U_C2",
-            "url": "http://optifine.net/download.php?f=OptiFine_1.7.2_HD_U_C2.jar"     
+            "artifactId": "net.optifine:optifine:1.7.2_HD_U_D1",
+            "url": "http://optifine.net/download.php?f=OptiFine_1.7.2_HD_U_D1.jar"     
         },
         {
             "name": "DamageIndicatorsMod",
