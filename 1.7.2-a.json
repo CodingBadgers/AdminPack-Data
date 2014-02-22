@@ -248,7 +248,7 @@
         "headless": false,
         "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version ${minecraft_version}",
         "title": "McBadgerCraft Admin Pack Installer",
-        "forgeVersion": "${minecraft_version}-10.12.0.1024",
+        "forgeVersion": "${minecraft_version}-10.12.0.1033",
         "minecraftVersion": "1.7.2",
         "target": "McBadgerPack-${minecraft_version}",
         "logo": "/big_logo.png",
