@@ -23,31 +23,6 @@
                 "serverreq": true
             },
             {
-                "name": "org.apache.httpcomponents:httpclient:4.3.1",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "org.apache.httpcomponents:httpcore:4.3",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "commons-net:commons-net:3.3",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "commons-codec:commons-codec:1.9",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "commons-logging:commons-logging:1.1.1",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
                 "name": "org.scala-lang:scala-library:2.10.2",
                 "url": "http://files.minecraftforge.net/maven/",
                 "checksums": [
