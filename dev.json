@@ -1,6 +1,7 @@
 {
-    "version": 5,
-    "versionInfo": {
+    "version": 6,
+    "versionInfo": 
+    {
         "id": "${target}",
         "time": "2014-01-06T23:28:40-0500",
         "releaseTime": "1960-01-01T00:00:00-0700",
@@ -12,36 +13,14 @@
                 "url": "http://files.minecraftforge.net/maven/"
             },
             {
+              "name": "net.optifine:optifine:1.7.2_HD_U_D1"
+            },
+            {
                 "name": "net.minecraft:launchwrapper:1.9",
                 "serverreq": true
             },
             {
                 "name": "org.ow2.asm:asm-all:4.1",
-                "serverreq": true
-            },
-            {
-                "name": "org.apache.httpcomponents:httpclient:4.3.1",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "org.apache.httpcomponents:httpcore:4.3",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "commons-net:commons-net:3.3",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "commons-codec:commons-codec:1.9",
-                "url": "http://repo1.maven.org/maven2/",
-                "serverreq": true
-            },
-            {
-                "name": "commons-logging:commons-logging:1.1.1",
-                "url": "http://repo1.maven.org/maven2/",
                 "serverreq": true
             },
             {
@@ -241,15 +220,21 @@
         "mainClass": "net.minecraft.launchwrapper.Launch",
         "minimumLauncherVersion": 9
     },
-    "install": {
+    "install": 
+    {
         "headless": false,
-        "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version ${minecraft_version}",
         "title": "McBadgerCraft Admin Pack Installer",
-        "forgeVersion": "${minecraft_version}-10.12.0.1024",
-        "minecraftVersion": "1.7.2",
-        "target": "McBadgerPack-${minecraft_version}",
+        "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version ${minecraft_version}",
+        "target": "McBadgerPack-${pack_version}",
+        "profileName": "McBadgerPack-${pack_version}",
+        "mirrorlist": "http://files.minecraftforge.net/mirror-brand.list",
         "logo": "/big_logo.png",
-        "profileName": "McBadgerPack-${minecraft_version}"
+        "version":
+        {
+            "minecraft": "1.7.2",
+            "forge": "${minecraft_version}-10.12.0.1033",
+            "pack": "${minecraft_version}-a"
+        }
     },
     "resourcespack":
     {
@@ -291,19 +276,19 @@
         },
         {
             "name": "mod_worldeditcui",
-            "version": "${minecraft_version}_00_lite_mc${minecraft_version}",
+            "version": "${minecraft_version}_02_lite_mc${minecraft_version}",
             "filetype": "LITEMOD",
             "installMethod": "MODS",
-            "artifactId": "wecui:worldeditcui:${minecraft_version}_00_lite_mc${minecraft_version}",
-            "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_01_lite_mc1.7.2.litemod"
+            "artifactId": "wecui:worldeditcui:${minecraft_version}_02_lite_mc${minecraft_version}",
+            "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_02_lite_mc1.7.2.litemod"
         },
         {
             "name": "ShadersModCore",
-            "version": "v2.3.2-beta-mc1.7.2-f1019",
+            "version": "v2.3.9-mc1.7.2-f1024",
             "filetype": "JAR",
             "installMethod": "MODS",
             "artifactId": "shadersmodcore.client.Shaders:${minecraft_version}",
-            "url": "http://mcbadgercraft.com/adminpack/mods/ShadersModCore-v2.3.2-beta-mc1.7.2-f1019.jar"
+            "url": "http://mcbadgercraft.com/adminpack/mods/ShadersModCore-v2.3.9-mc1.7.2-f1024.jar"
         },
         {
             "name": "badgerstyle",
@@ -311,7 +296,7 @@
             "filetype": "ZIP",
             "installMethod": "RESOURCE",
             "artifactId": "com.mcbadgercraft:badgerstyle:${minecraft_version}",
-            "url": "http://mcbadgercraft.com/downloads/BadgerStyle.zip"
+            "url": "http://mcbadgercraft.com/downloads/SmoothBadger.zip"
         },
         {
             "name": "lagless",
@@ -319,7 +304,47 @@
             "filetype": "ZIP",
             "installMethod": "SHADER",
             "artifactId": "paolo:lagless:${minecraft_version}",
-            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/%c2%a76Paolo%27s%20%c2%a7aLagLess%20%c2%a74Shaders%20%c2%a7cv03%20%c2%a73RC6.zip"
+            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/LagLess_RC7.zip"
+        },
+        {
+            "name": "seus",
+            "version": "10.1_preview1",
+            "filetype": "ZIP",
+            "installMethod": "SHADER",
+            "artifactId": "seus:seus:10.1_preview1}",
+            "url": "http://mcbadgercraft.com/adminpack/resources/shaders/SEUS_v10.1_preview1.zip"
+        },
+        {
+            "name": "Optifine",
+            "version": "1.7.2_HD_U_D1",
+            "filetype": "JAR",
+            "installMethod": "LIBRARY",
+            "artifactId": "net.optifine:optifine:1.7.2_HD_U_D1",
+            "url": "http://optifine.net/download.php?f=OptiFine_1.7.2_HD_U_D1.jar"     
+        },
+        {
+            "name": "DamageIndicatorsMod",
+            "version": "3.07",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "DamageIndicatorsMod.DIMod:3.07",
+            "url": "http://mcbadgercraft.com/adminpack/mods/DamageIndicatorsMod-3.0.7.jar"     
+        },
+		{
+            "name": "DynamicLights",
+            "version": "1.7.2",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "atomicstryker.dynamiclights.client.DynamicLights:1.7.2",
+            "url": "http://mcbadgercraft.com/adminpack/mods/DynamicLights-1.7.2.jar"     
+        },
+		{
+            "name": "MorePlayerModels",
+            "version": "1.7.2",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "artifactId": "noppes.mpm.MorePlayerModels:1.7.2",
+            "url": "http://mcbadgercraft.com/adminpack/mods/MorePlayerModels_1.7.2.jar"     
         }
     ]
 }
