@@ -330,7 +330,7 @@
             "artifactId": "DamageIndicatorsMod.DIMod:3.07",
             "url": "http://mcbadgercraft.com/adminpack/mods/DamageIndicatorsMod-3.0.7.jar"     
         },
-		{
+        {
             "name": "DynamicLights",
             "version": "1.7.2",
             "filetype": "JAR",
@@ -338,7 +338,7 @@
             "artifactId": "atomicstryker.dynamiclights.client.DynamicLights:1.7.2",
             "url": "http://mcbadgercraft.com/adminpack/mods/DynamicLights-1.7.2.jar"     
         },
-		{
+        {
             "name": "MorePlayerModels",
             "version": "1.7.2",
             "filetype": "JAR",
@@ -346,5 +346,20 @@
             "artifactId": "noppes.mpm.MorePlayerModels:1.7.2",
             "url": "http://mcbadgercraft.com/adminpack/mods/MorePlayerModels_1.7.2.jar"     
         }
-    ]
+    ],
+    "gamedir":
+    {
+        "name": "${target}",
+        "copy":
+        [
+            {
+                "old": "servers.dat",
+                "rename": false
+            },
+            {
+                "old": "options.txt",
+                "rename": false
+            }
+        ]
+    }
 }
