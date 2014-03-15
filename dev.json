@@ -2,14 +2,14 @@
     "version": 6,
     "versionInfo": 
     {
-        "id": "${target}",
+        "id": "McBadgerPack-1.7.2-b",
         "time": "2014-03-06T21:00:00-0100",
         "releaseTime": "2014-03-06T21:00:00-0100",
         "type": "release",
         "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --uuid ${auth_uuid} --accessToken ${auth_access_token} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker --tweakClass cpw.mods.fml.common.launcher.FMLTweaker",
         "libraries": [
             {
-                "name": "net.minecraftforge:forge:${forge_version}",
+                "name": "net.minecraftforge:forge:1.7.2-10.12.0.1033",
                 "url": "http://files.minecraftforge.net/maven/"
             },
             {
@@ -224,16 +224,16 @@
     {
         "headless": false,
         "title": "McBadgerCraft Admin Pack Installer",
-        "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version ${minecraft_version}",
-        "target": "McBadgerPack-${pack_version}",
-        "profileName": "McBadgerPack-${pack_version}",
+        "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version 1.7.2",
+        "target": "McBadgerPack-1.7.2-b",
+        "profileName": "McBadgerPack-1.7.2-b",
         "mirrorlist": "http://files.minecraftforge.net/mirror-brand.list",
         "logo": "/big_logo.png",
         "version":
         {
             "minecraft": "1.7.2",
-            "forge": "${minecraft_version}-10.12.0.1033",
-            "pack": "${minecraft_version}-a"
+            "forge": "1.7.2-10.12.0.1033",
+            "pack": "1.7.2-b"
         }
     },
     "resourcespack":
@@ -243,10 +243,10 @@
     "resources": 
     [
         {
-            "artifactId": "net.minecraftforge:forge:${forge_version}",
+            "artifactId": "net.minecraftforge:forge:1.7.2-10.12.0.1033",
             "filetype": "JAR",
             "installMethod": "LIBRARY",
-            "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/${forge_version}/forge-${forge_version}-universal.jar"
+            "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.2-10.12.0.1033/forge-1.7.2-10.12.0.1033-universal.jar"
         },
         {
             "artifactId": "uk.thecodingbadgers:bUpload:1.4.0-SNAPSHOT",
@@ -255,7 +255,7 @@
             "url": "http://mcbadgercraft.com/downloads/bUpload/bUpload-1.7.2-1.4.0-SNAPSHOT.jar"
         },
         {
-            "artifactId": "com.voxelbox:voxelmap:${minecraft_version}",
+            "artifactId": "com.voxelbox:voxelmap:1.7.2",
             "filetype": "ZIP",
             "installMethod": "MODS",
             "url": "http://mcbadgercraft.com/adminpack/mods/voxelmap-1.7.2-1.0.jar"
@@ -267,7 +267,7 @@
             "url": "http://build.technicpack.net/job/Inventory-Tweaks/102/artifact/build/libs/InventoryTweaks-1.57-dev-102.jar"
         },
         {
-            "artifactId": "wecui:worldeditcui:${minecraft_version}_02_lite_mc1.7.2",
+            "artifactId": "wecui:worldeditcui:1.7.2_02_lite_mc1.7.2",
             "filetype": "LITEMOD",
             "installMethod": "MODS",
             "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_02_lite_mc1.7.2.litemod"
@@ -285,7 +285,7 @@
             "url": "http://mcbadgercraft.com/downloads/SmoothBadger.zip"
         },
         {
-            "artifactId": "paolo:lagless:${minecraft_version}",
+            "artifactId": "paolo:lagless:1.7.2",
             "filetype": "ZIP",
             "installMethod": "SHADER",
             "url": "http://mcbadgercraft.com/adminpack/resources/shaders/LagLess_RC7.zip"
@@ -323,7 +323,7 @@
     ],
     "gamedir":
     {
-        "name": "${target}",
+        "name": "mcbadgerpack-1.7.2-b",
         "copy":
         [
             {
