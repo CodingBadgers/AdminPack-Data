@@ -1,6 +1,7 @@
 [
   {
     "name": "AdminPack",
+    "description": "Admin modpack for 1.7.2",
     "latest":
     {
       "minecraft": "1.7.2",
