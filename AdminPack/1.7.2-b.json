@@ -344,6 +344,12 @@
             "filetype": "JAR",
             "installMethod": "MODS",
             "url": "http://mcbadgercraft.com/adminpack/mods/MorePlayerModels_1.7.2.jar"     
+        },
+        {
+            "artifactId": "openeye:openeye:0.4-1.7.2",
+            "filetype": "JAR",
+            "insatllMethod": "MODS",
+            "url": "https://dl.dropboxusercontent.com/u/4295615/OpenEye-0.4-1.7.2.jar"
         }
     ],
     "gamedir":
