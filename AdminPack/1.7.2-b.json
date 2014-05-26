@@ -325,6 +325,18 @@
             "filetype": "JAR",
             "installMethod": "MODS",
             "url": "https://dl.dropboxusercontent.com/u/4295615/OpenEye-0.4-1.7.2.jar"
+        },
+        {
+            "artifactId": "chickenbones:codechickencore:1.7.2-1.0.0",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "url": "http://www.chickenbones.craftsaddle.org/Files/New_Versions/1.7.2/CodeChickenCore-1.7.2-1.0.0-universal.jar"
+        },
+        {
+            "artifactId": "chickenbones:noteenoughitems:1.7.2-1.0.1",
+            "filetype": "JAR",
+            "installMethod": "MODS",
+            "url": "http://www.chickenbones.craftsaddle.org/Files/New_Versions/1.7.2/NotEnoughItems-1.7.2-1.0.1-universal.jar"
         }
     ],
     "gamedir":
