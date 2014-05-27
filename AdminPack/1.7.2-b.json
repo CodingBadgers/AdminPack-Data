@@ -9,212 +9,206 @@
         "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --uuid ${auth_uuid} --accessToken ${auth_access_token} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker --tweakClass cpw.mods.fml.common.launcher.FMLTweaker",
         "libraries": [
             {
-                "name": "net.minecraftforge:forge:1.7.2-10.12.0.1033",
-                "url": "http://files.minecraftforge.net/maven/"
+              "name": "net.minecraftforge:forge:1.7.2-10.12.1.1098",
+              "url": "http://files.minecraftforge.net/maven/"
             },
             {
-              "name": "net.optifine:optifine:1.7.2_HD_U_D1"
-            },
-            {
-                "name": "net.minecraft:launchwrapper:1.9",
-                "serverreq": true
-            },
-            {
-                "name": "org.ow2.asm:asm-all:4.1",
-                "serverreq": true
-            },
-            {
-                "name": "org.scala-lang:scala-library:2.10.2",
-                "url": "http://files.minecraftforge.net/maven/",
-                "checksums": [
-                    "6ba65d12cd09d441083262d6f73d2257fec7c663",
-                    "65de4339eaed1c3675485fb03a3532fecfd8e8cd"
-                ],
-                "comment": "Important for FML, we add this",
-                "serverreq": true,
-                "clientreq": true
-            },
-            {
-                "name": "org.scala-lang:scala-compiler:2.10.2",
-                "url": "http://files.minecraftforge.net/maven/",
-                "checksums": [
-                    "64c8b1380cc53d6850823d6e4e7ae984aa44ef9c",
-                    "99fd0ffb66f3088b0cd1071315fd5eb2b2b070ff"
-                ],
-                "comment": "Important for FML, we add this",
-                "serverreq": true,
-                "clientreq": true
+                "name": "net.optifine:optifine:1.7.2_HD_U_D1"
             },
             {
                 "name": "com.mumfrey:liteloader:1.7.2",
                 "url": "http://dl.liteloader.com/versions/"
             },
             {
-                "name": "java3d:vecmath:1.3.1"
+              "name": "net.minecraft:launchwrapper:1.9",
+              "serverreq":true
             },
             {
-                "name": "net.sf.trove4j:trove4j:3.0.3"
+              "name": "org.ow2.asm:asm-all:4.1",
+              "serverreq":true
             },
             {
-                "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+              "name": "org.scala-lang:scala-library:2.10.2",
+              "url" : "http://files.minecraftforge.net/maven/",
+              "checksums" : [ "6ba65d12cd09d441083262d6f73d2257fec7c663", "65de4339eaed1c3675485fb03a3532fecfd8e8cd" ],
+              "comment" : "Important for FML, we add this",
+              "serverreq":true,
+              "clientreq":true
             },
             {
-                "name": "net.sf.jopt-simple:jopt-simple:4.5",
-                "serverreq": true
+              "name": "org.scala-lang:scala-compiler:2.10.2",
+              "url" : "http://files.minecraftforge.net/maven/",
+              "checksums" : [ "64c8b1380cc53d6850823d6e4e7ae984aa44ef9c", "99fd0ffb66f3088b0cd1071315fd5eb2b2b070ff" ],
+              "comment" : "Important for FML, we add this",
+              "serverreq":true,
+              "clientreq":true
             },
             {
-                "name": "lzma:lzma:0.0.1",
-                "serverreq": true
+              "name": "java3d:vecmath:1.3.1"
             },
             {
-                "name": "com.paulscode:codecjorbis:20101023"
+              "name": "net.sf.trove4j:trove4j:3.0.3"
             },
             {
-                "name": "com.paulscode:codecwav:20101023"
+              "name": "com.ibm.icu:icu4j-core-mojang:51.2"
             },
             {
-                "name": "com.paulscode:libraryjavasound:20101123"
+              "name": "net.sf.jopt-simple:jopt-simple:4.5",
+              "serverreq":true
             },
             {
-                "name": "com.paulscode:librarylwjglopenal:20100824"
+              "name": "lzma:lzma:0.0.1",
+              "serverreq":true
             },
             {
-                "name": "com.paulscode:soundsystem:20120107"
+              "name": "com.paulscode:codecjorbis:20101023"
             },
             {
-                "name": "io.netty:netty-all:4.0.10.Final"
+              "name": "com.paulscode:codecwav:20101023"
             },
             {
-                "name": "com.google.guava:guava:15.0"
+              "name": "com.paulscode:libraryjavasound:20101123"
             },
             {
-                "name": "org.apache.commons:commons-lang3:3.1"
+              "name": "com.paulscode:librarylwjglopenal:20100824"
             },
             {
-                "name": "commons-io:commons-io:2.4"
+              "name": "com.paulscode:soundsystem:20120107"
             },
             {
-                "name": "net.java.jinput:jinput:2.0.5"
+              "name": "io.netty:netty-all:4.0.10.Final"
             },
             {
-                "name": "net.java.jutils:jutils:1.0.0"
+              "name": "com.google.guava:guava:15.0"
             },
             {
-                "name": "com.google.code.gson:gson:2.2.4"
+              "name": "org.apache.commons:commons-lang3:3.1"
             },
             {
-                "name": "com.mojang:authlib:1.3"
+              "name": "commons-io:commons-io:2.4"
             },
             {
-                "name": "org.apache.logging.log4j:log4j-api:2.0-beta9"
+              "name": "net.java.jinput:jinput:2.0.5"
             },
             {
-                "name": "org.apache.logging.log4j:log4j-core:2.0-beta9"
+              "name": "net.java.jutils:jutils:1.0.0"
             },
             {
-                "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
-                "rules": [
-                    {
-                        "action": "allow"
-                    },
-                    {
-                        "action": "disallow",
-                        "os": {
-                            "name": "osx"
-                        }
-                    }
-                ]
+              "name": "com.google.code.gson:gson:2.2.4"
             },
             {
-                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
-                "rules": [
-                    {
-                        "action": "allow"
-                    },
-                    {
-                        "action": "disallow",
-                        "os": {
-                            "name": "osx"
-                        }
-                    }
-                ]
+              "name": "com.mojang:authlib:1.3"
             },
             {
-                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
-                "rules": [
-                    {
-                        "action": "allow"
-                    },
-                    {
-                        "action": "disallow",
-                        "os": {
-                            "name": "osx"
-                        }
-                    }
-                ],
-                "natives": {
-                    "linux": "natives-linux",
-                    "windows": "natives-windows"
+              "name": "org.apache.logging.log4j:log4j-api:2.0-beta9"
+            },
+            {
+              "name": "org.apache.logging.log4j:log4j-core:2.0-beta9"
+            },
+            {
+              "name": "org.lwjgl.lwjgl:lwjgl:2.9.0",
+              "rules": [
+                {
+                  "action": "allow"
                 },
-                "extract": {
-                    "exclude": [
-                        "META-INF/"
-                    ]
+                {
+                  "action": "disallow",
+                  "os": {
+                    "name": "osx"
+                  }
                 }
+              ]
             },
             {
-                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20131017",
-                "rules": [
-                    {
-                        "action": "allow",
-                        "os": {
-                            "name": "osx"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20131017",
-                "rules": [
-                    {
-                        "action": "allow",
-                        "os": {
-                            "name": "osx"
-                        }
-                    }
-                ]
-            },
-            {
-                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20131017",
-                "rules": [
-                    {
-                        "action": "allow",
-                        "os": {
-                            "name": "osx"
-                        }
-                    }
-                ],
-                "natives": {
-                    "osx": "natives-osx"
+              "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+              "rules": [
+                {
+                  "action": "allow"
                 },
-                "extract": {
-                    "exclude": [
-                        "META-INF/"
-                    ]
+                {
+                  "action": "disallow",
+                  "os": {
+                    "name": "osx"
+                  }
                 }
+              ]
             },
             {
-                "name": "net.java.jinput:jinput-platform:2.0.5",
-                "natives": {
-                    "linux": "natives-linux",
-                    "windows": "natives-windows",
-                    "osx": "natives-osx"
+              "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+              "rules": [
+                {
+                  "action": "allow"
                 },
-                "extract": {
-                    "exclude": [
-                        "META-INF/"
-                    ]
+                {
+                  "action": "disallow",
+                  "os": {
+                    "name": "osx"
+                  }
                 }
+              ],
+              "natives": {
+                "linux": "natives-linux",
+                "windows": "natives-windows"
+              },
+              "extract": {
+                "exclude": [
+                  "META-INF/"
+                ]
+              }
+            },
+            {
+              "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20131017",
+              "rules": [
+                {
+                  "action": "allow",
+                  "os": {
+                    "name": "osx"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1-nightly-20131017",
+              "rules": [
+                {
+                  "action": "allow",
+                  "os": {
+                    "name": "osx"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1-nightly-20131017",
+              "rules": [
+                {
+                  "action": "allow",
+                  "os": {
+                    "name": "osx"
+                  }
+                }
+              ],
+              "natives": {
+                "osx": "natives-osx"
+              },
+              "extract": {
+                "exclude": [
+                  "META-INF/"
+                ]
+              }
+            },
+            {
+              "name": "net.java.jinput:jinput-platform:2.0.5",
+              "natives": {
+                "linux": "natives-linux",
+                "windows": "natives-windows",
+                "osx": "natives-osx"
+              },
+              "extract": {
+                "exclude": [
+                  "META-INF/"
+                ]
+              }
             }
         ],
         "mainClass": "net.minecraft.launchwrapper.Launch",
@@ -232,7 +226,7 @@
         "version":
         {
             "minecraft": "1.7.2",
-            "forge": "1.7.2-10.12.1.1085",
+            "forge": "1.7.2-10.12.1.1098",
             "pack": "1.7.2-b"
         }
     },
@@ -243,16 +237,16 @@
     "resources": 
     [
         {
-            "artifactId": "net.minecraftforge:forge:1.7.2-10.12.1.1085",
+            "artifactId": "net.minecraftforge:forge:1.7.2-10.12.1.1098",
             "filetype": "JAR",
             "installMethod": "LIBRARY",
-            "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.2-10.12.1.1085/forge-1.7.2-10.12.1.1085-universal.jar"
+            "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.2-10.12.1.1098/forge-1.7.2-10.12.1.1098-universal.jar"
         },
         {
-            "artifactId": "uk.thecodingbadgers:bUpload:1.4.1-SNAPSHOT",
+            "artifactId": "uk.thecodingbadgers:bUpload:1.4.1",
             "filetype": "JAR",
             "installMethod": "MODS",
-            "url": "http://forgotten-realms.co.uk/downloads/bupload/bUpload-1.7.2-1.4.1-SNAPSHOT.jar"
+            "url": "http://forgotten-realms.co.uk/downloads/bupload/bUpload-1.7.2-1.4.1.jar"
         },
         {
             "artifactId": "com.voxelbox:voxelmap:1.7.2",
