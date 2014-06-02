@@ -2,14 +2,14 @@
     "version": 6,
     "versionInfo":
     {
-        "id": "McBadgerPack-1.7.2-b",
+        "id": "Survival-Plus-1.7.2-a",
         "time": "2014-03-06T21:00:00-0100",
         "releaseTime": "2014-03-06T21:00:00-0100",
         "type": "release",
         "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${game_assets} --uuid ${auth_uuid} --accessToken ${auth_access_token} --tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker --tweakClass cpw.mods.fml.common.launcher.FMLTweaker",
         "libraries": [
             {
-              "name": "net.minecraftforge:forge:1.7.2-10.12.1.1098",
+              "name": "net.minecraftforge:forge:1.7.2-10.12.1.1103",
               "url": "http://files.minecraftforge.net/maven/"
             },
             {
@@ -219,14 +219,14 @@
         "headless": false,
         "title": "McBadgerCraft Admin Pack Installer",
         "welcome": "Welcome to the McBadgerCraft Admin Pack installer.\n You are installing the staff mod pack for minecraft version 1.7.2",
-        "target": "McBadgerPack-1.7.2-b",
-        "profileName": "McBadgerPack-1.7.2-b",
+        "target": "Survival-Plus-1.7.2-a",
+        "profileName": "Survival-Plus-1.7.2-a",
         "mirrorlist": "http://files.minecraftforge.net/mirror-brand.list",
         "logo": "/big_logo.png",
         "version":
         {
             "minecraft": "1.7.2",
-            "forge": "1.7.2-10.12.1.1098",
+            "forge": "1.7.2-10.12.1.1103",
             "pack": "1.7.2-b"
         }
     },
@@ -237,7 +237,7 @@
     "resources":
     [
         {
-            "artifactId": "net.minecraftforge:forge:1.7.2-10.12.1.1098",
+            "artifactId": "net.minecraftforge:forge:1.7.2-10.12.1.1103",
             "filetype": "JAR",
             "installMethod": "LIBRARY",
             "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.2-10.12.1.1098/forge-1.7.2-10.12.1.1098-universal.jar"
