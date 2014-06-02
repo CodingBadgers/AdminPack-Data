@@ -37,6 +37,25 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Survival-Plus",
+      "description": "Survival plus added to the admin modpack",
+      "latest":
+      {
+        "minecraft": "1.7.2",
+        "pack": "b"
+      },
+      "versions":
+      [
+        {
+          "minecraft": "1.7.2",
+          "pack":
+          [
+            "a"  
+          ]
+        }  
+      ]
     }
   ]
 }
