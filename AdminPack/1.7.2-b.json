@@ -300,7 +300,7 @@
             "artifactId": "DIMod:DamageIndicatorsMod:3.07",
             "filetype": "JAR",
             "installMethod": "MODS",
-            "url": "http://forgotten-realms.co.uk/adminpack/mods/DamageIndicatorsMod-3.0.7.jar"     
+            "url": "http://forgotten-realms.co.uk/downloads/mods/DamageIndicatorsMod-3.0.7.jar"     
         },
         {
             "artifactId": "dynamiclights.client:DynamicLights:1.7.2",
