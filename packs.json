@@ -3,39 +3,46 @@
   [
     {
       "name": "AdminPack",
-      "description": "Admin modpack for 1.7.2",
+      "description": "Admin modpack for 1.7.10",
       "latest":
       {
-        "minecraft": "1.7.2",
-        "pack": "b"
+        "minecraft": "1.7.10",
+        "pack": "a"
       },
       "versions":
       [
         {
-          "minecraft": "1.6.2",
-          "pack":
-          [
-            "a",
-            "b",
-            "c",
-            "d"
-          ]
+			"minecraft": "1.6.2",
+			"pack":
+			[
+				"a",
+				"b",
+				"c",
+				"d"
+			]
         },
         {
-          "minecraft": "1.6.4",
-          "pack":
-          [
-            "a"
-          ]
+			"minecraft": "1.6.4",
+			"pack":
+			[
+				"a"
+			]
         },
         {
-          "minecraft": "1.7.2",
-          "pack":
-          [
-            "a",
-            "b"
-          ]
-        }
+			"minecraft": "1.7.2",
+			"pack":
+			[
+				"a",
+				"b"
+			]	
+        },
+		{
+			"minecraft": "1.7.2",
+			"pack":
+			[
+				"a"
+			]
+		}
       ]
     },
     {
